@@ -1,0 +1,62 @@
+html {
+    background: #100a1c;
+    background-image:
+        radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+        radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    background-attachment: fixed;
+    color: #6cacc5;
+}
+
+body {
+    color: #6cacc5;
+    font: 300 18px/1.6 "Source Sans Pro",sans-serif;
+    margin: 0;
+    padding: 5em 0 2em;
+    text-align: center;
+}
+
+header {
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.viewer {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.viewer-num {
+    margin-left: 110px;
+    width: 100px;
+    height: 40px;
+    text-align: right;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.viewer-clear {
+    
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.num {
+    border: 0;
+    background: rgba(42,50,113, .28);
+    color: #6cacc5;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    margin: 0.25em;
+    width: 60px;
+    height: 60px;
+    transition: all 0.5s;
+}
